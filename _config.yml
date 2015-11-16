@@ -68,4 +68,7 @@ theme: landscape
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:czwen/czwen.github.io.git
+  branch: master
+  #message: Default
