@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: czwen.github.io
 subtitle:
 description:
-author: John Doe
+author: Ryan
 language:
 timezone:
 
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: light
+theme: landscape
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -72,3 +72,6 @@ deploy:
   repo: git@github.com:czwen/czwen.github.io.git
   branch: master
   #message: Default
+
+# Comment
+disqus_shortname: czwen
