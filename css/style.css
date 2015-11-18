@@ -442,6 +442,15 @@ body {
 #nav-rss-link:before {
   content: "\f09e";
 }
+#nav-twitter-link:before {
+  content: "\f099";
+}
+#nav-instagram-link:before {
+  content: "\f16d";
+}
+#nav-github-link:before {
+  content: "\f09b";
+}
 #nav-search-btn:before {
   content: "\f002";
 }
