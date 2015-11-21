@@ -1,0 +1,30 @@
+<%- partial('_partial/head') %>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+      <div class="outer">
+        <section id="main"><%- body %></section>
+      </div>
+      <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
+    </div>
+    <%- partial('_partial/after-footer') %>
+  </div>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="/bigfoot/bigfoot.js"></script>
+  <script type="text/javascript">
+      $.bigfoot();
+  </script>
+  <script type="text/javascript">
+    var bigfoot = $.bigfoot(
+        {
+            deleteOnUnhover: false,
+            preventPageScroll: false,
+            hoverDelay: 250
+        }
+    );
+</script>
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400&amp;text=%C4%93%E2%84%A2" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet" type="text/css">
+</body>
+</html>

@@ -1,0 +1,35 @@
+<header id="header">
+  <div id="header-outer" class="outer">
+    <h1 id="header-title">
+    <a href="<%- url_for() %>" id="logo"><strong>czwen</strong>.github.io</a>
+    </h1>
+<% if (false){ %>
+    <div id="header-inner" class="inner">
+      <nav id="sub-nav">
+        <% if (theme.twitter){ %>
+          <a id="nav-twitter-link" class="nav-icon" href="https://twitter.com/<%- theme.twitter %>" title="twitter@<%- theme.twitter %>"></a>
+        <% } %>
+
+        <% if (theme.github){ %>
+          <a id="nav-github-link" class="nav-icon" href="https://github.com/<%- theme.github %>" title="github@<%- theme.github %>"></a>
+        <% } %>
+
+        <% if (theme.instagram){ %>
+          <a id="nav-instagram-link" class="nav-icon" href="https://www.instagram.com/<%- theme.instagram %>" title="instagram@<%- theme.instagram %>"></a>
+        <% } %>
+
+        <% if (theme.rss){ %>
+        <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="RSS Feed"></a>
+        <% } %>
+
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <%- search_form({button: '&#xF002;'}) %>
+      </div>
+    </div>
+
+<% } %>
+
+  </div>
+</header>
