@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #f2f2f2;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 ::selection {
@@ -321,7 +321,7 @@ body {
   text-shadow: 0 1px 4px rgba(0,0,0,0);
 }
 a#logo:hover {
-  color: #3ebde0;
+  color: #333;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
@@ -331,6 +331,10 @@ a#logo:hover {
   font-size: 40px;
   line-height: 40px;
   letter-spacing: 2px;
+  color: #ccc;
+}
+#logo strong {
+  color: #333;
 }
 #main-nav {
   float: left;
@@ -442,7 +446,7 @@ a#logo:hover {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -467,25 +471,29 @@ a#logo:hover {
 .article {
   margin: 50px 0;
 }
-.article-inner {
-  overflow: hidden;
-}
+.article-inner:before,
 .article-meta:before,
+.article-inner:after,
 .article-meta:after {
   content: "";
   display: table;
 }
+.article-inner:after,
 .article-meta:after {
   clear: both;
 }
 .article-date {
   float: left;
+  font-family: "Hoefler Text", serif;
+  font-size: 11px;
+  font-weight: normal;
+  margin: 10px 0;
+  text-shadow: none;
 }
 .article-category {
   float: left;
   line-height: 1em;
   color: #ccc;
-  text-shadow: 0 1px #fff;
   margin-left: 8px;
 }
 .article-category:before {
@@ -514,14 +522,6 @@ a.article-title:hover {
 .article-entry {
   color: #151719;
   padding: 0 0px;
-}
-.article-entry:before,
-.article-entry:after {
-  content: "";
-  display: table;
-}
-.article-entry:after {
-  clear: both;
 }
 .article-entry p,
 .article-entry table {
@@ -597,7 +597,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 14px;
   margin: 1.6em 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -648,7 +648,6 @@ a.article-title:hover {
   border-radius: 15px;
   background: #f2f2f2;
   color: #999;
-  text-shadow: 0 1px #fff;
   text-decoration: none;
 }
 .article-more-link a:hover {
@@ -658,11 +657,13 @@ a.article-title:hover {
   text-shadow: 0 1px #1e7293;
 }
 .article-footer {
+  width: 100px;
   font-size: 0.85em;
   line-height: 1.6em;
-  border-top: 1px solid rgba(49,175,190,0.19);
+  border-top: rgba(49,175,190,0.19);
+  border-top-style: double;
   padding-top: 1.6em;
-  margin: 0 0px 0px;
+  margin: 20px 0px 0px;
 }
 .article-footer:before,
 .article-footer:after {
@@ -737,7 +738,6 @@ a.article-title:hover {
 }
 .article-nav-link-wrap {
   text-decoration: none;
-  text-shadow: 0 1px #fff;
   color: #999;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -805,7 +805,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -836,7 +836,6 @@ a.article-title:hover {
   float: left;
   position: relative;
   color: #999;
-  text-shadow: 0 1px #fff;
 }
 .article-share-twitter:before,
 .article-share-facebook:before,
@@ -1041,9 +1040,7 @@ a.article-title:hover {
   color: rgba(49,175,190,0.19);
 }
 #footer {
-  background: #262a30;
   padding: 50px 0;
-  border-top: 1px solid rgba(49,175,190,0.19);
   color: #999;
 }
 #footer a {
@@ -1158,7 +1155,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #f2f2f2;
   color: #999;
-  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.85em "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
@@ -1234,7 +1231,6 @@ pre .javascript .function {
     left: 0;
     width: 280px;
     height: 100%;
-    background: #191919;
     border-right: 1px solid #fff;
   }
 }
