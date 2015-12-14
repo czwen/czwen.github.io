@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #f2f2f2;
-  font: 14px "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 ::selection {
@@ -446,7 +446,7 @@ a#logo:hover {
   background: none;
   color: #555;
   width: 100%;
-  font: 13px "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   outline: none;
 }
 .search-form-input::-webkit-search-results-decoration,
@@ -484,7 +484,7 @@ a#logo:hover {
 }
 .article-date {
   float: left;
-  font-family: "Hoefler Text", serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 11px;
   font-weight: normal;
   margin: 10px 0;
@@ -597,7 +597,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 14px;
   margin: 1.6em 0;
-  font-family: "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -805,7 +805,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1155,7 +1155,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #f2f2f2;
   color: #999;
-  font: 0.85em "Source Sand Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.85em "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
