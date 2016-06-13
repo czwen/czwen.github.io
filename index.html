@@ -45,56 +45,6 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-组件化" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a class="article-date">
-  <time datetime="2016-04-12T14:57:40.000Z" itemprop="datePublished">2016-04-12</time>
-</a>
-
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/04/12/组件化/">组件化</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>最近，「组件化」这个词太火了，加上公司的产品要动工了，虽然界面已经做了50%左右，但是细看工程，我觉得产品不应该做成这样。虽然我也是在这个大环境下工作，但是有时候对某些做法并不认同。于是，向经理请示采用「组件化」这种架构，我也来凑热闹了。科普了一下，看别人分享的经验，最后看这三篇文章看得津津有味。</p>
-<ul>
-<li><a href="http://limboy.me/ios/2016/03/10/mgj-components.html" target="_blank" rel="external">蘑菇街 App 的组件化之路</a></li>
-<li><a href="http://casatwy.com/iOS-Modulization.html" target="_blank" rel="external">iOS应用架构谈 组件化方案</a></li>
-<li><a href="http://limboy.me/ios/2016/03/14/mgj-components-continued.html" target="_blank" rel="external">蘑菇街 App 的组件化之路·续</a></li>
-</ul>
-<p>虽然看得津津有味，但是实施起来一点都不舒服。为何不舒服呢？</p>
-<ol>
-<li>亚力山大。这是试验性尝试，冒着拖进度的险，摸着灯前进。</li>
-<li><p>从何入手。首先，决定了采用<code>主工程 + CocoaPods导入组件</code>的方式。几乎大家都是采用 CocoaPods 的方式。但是这又衍生一个问题，是否会因组件的数据导致仓库增多，同时在新建组件的时候各种麻烦。加上公司的仓库只能由管理员新建。于是决定采用<code>branch</code>的方式管理组件。并创建一个<code>modeule/template</code>作为模板分支，新建组件是就从这个<code>modeule/template</code>分支 checkout 一个新的分支。目前分支情况如下：</p>
- <figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">----</span></span><br><span class="line">|<span class="comment">-- develop</span></span><br><span class="line">|<span class="comment">-- module/template</span></span><br><span class="line">|<span class="comment">--	</span></span><br><span class="line">|<span class="comment">-- module/order</span></span><br><span class="line">|<span class="comment">-- module/detail</span></span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><del><em>未完</em></del></p>
-<p><em>题外话</em></p>
-<p>也许是长期做外包养成的坏习惯，外包项目要求快速开发，开发过程中根本没有考虑组件重用的问题。做过众多项目，就登录注册模块而言，每次界面都大同小异，但是没有一次是重用的，每次都是重新新建的。一开始还是会注意的，但是到了中期就开始天马行空了，不管耦不耦合，反正实现就行了。</p>
-<p>看了 <a href="http://casatwy.com" target="_blank" rel="external">@casatwy</a> 写的一系列关于架构的文章，一直都是外包外包，没做过产品，没有迭代的这种体会，心感可惜。希望之后能朝产品的方向走。或者能做点什么令外包更优雅。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-    </footer>
-  </div>
-</article>
-
-
-  
     <article id="post-My-March" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a class="article-date">
