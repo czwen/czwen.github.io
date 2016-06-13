@@ -132,7 +132,7 @@ body {
   text-shadow: none;
 }
 .outer {
-  max-width: 920px;
+  width: 600px;
   margin: 0 auto;
   padding: 0 20px;
 }
