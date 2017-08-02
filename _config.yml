@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site Ryan de blog
-title: YES WE CODE
+title: Fork My Code
 subtitle:
 description:
 author: Ryan
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.yeswecode.net
+url: http://blog.forkmycode.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
