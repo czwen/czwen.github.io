@@ -45,7 +45,7 @@ ln -s ~/Pictures/Photos Library.photoslibrary/Masters  ~/Pictures
 始终是两个公司的产物，所以有一些不尽人意的地方：
 
 1. 没有 Exif 信息的图片时间会根据上传时间而改变（如：从 微信.app 拍摄的图片）；
-2. ...
+2. **Google Photos.app** 上会出现重复图，Zero KB，可能是僵尸图；
 
 由于 Google Photos 是监测文件夹的变化的，无奈我的 macbook 是乞丐版，128G版，不能一直这样增加照片，所以这次同步完成后，我就开始使用 iOS 客户端同步了，只要勤同步，一个晚上同步一天拍摄的照片还是可以的。
 
