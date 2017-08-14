@@ -31,7 +31,7 @@ ln -s ~/Pictures/Photos Library.photoslibrary/Masters  ~/Pictures
 
 ### 开始同步
 
-在 **Backup and Sync from Google.app** 上选择刚刚创建的快捷方式，并按下**OK**，然后开始扫面文件。
+在 **Backup and Sync from Google.app** 上选择刚刚创建的快捷方式，并按下**OK**，然后开始扫描文件。
 
 ![](http://7xsqni.com1.z0.glb.clouddn.com/2017-08-01-Screen%20Shot%202017-08-01%20at%206.36.22%20PM.png)
 	
