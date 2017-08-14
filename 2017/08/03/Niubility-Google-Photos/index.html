@@ -3,14 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Fork My Code</title>
+  <title>Niubility Google Photos | Fork My Code</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Fork My Code">
-<meta property="og:url" content="http://blog.forkmycode.com/index.html">
+  <meta name="description" content="牛逼的 Google 帮我自动合成了一张动图，由数张航拍照组成的。  -EOF-">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Niubility Google Photos">
+<meta property="og:url" content="http://blog.forkmycode.com/2017/08/03/Niubility-Google-Photos/index.html">
 <meta property="og:site_name" content="Fork My Code">
+<meta property="og:description" content="牛逼的 Google 帮我自动合成了一张动图，由数张航拍照组成的。  -EOF-">
+<meta property="og:image" content="http://7xsqni.com1.z0.glb.clouddn.com/2017-08-03-DJI_0096-ANIMATION.gif">
+<meta property="og:updated_time" content="2017-08-14T03:48:29.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Fork My Code">
+<meta name="twitter:title" content="Niubility Google Photos">
+<meta name="twitter:description" content="牛逼的 Google 帮我自动合成了一张动图，由数张航拍照组成的。  -EOF-">
+<meta name="twitter:image" content="http://7xsqni.com1.z0.glb.clouddn.com/2017-08-03-DJI_0096-ANIMATION.gif">
 <meta name="twitter:creator" content="@czwen">
   
     <link rel="alternative" href="/atom.xml" title="Fork My Code" type="application/atom+xml">
@@ -77,9 +83,7 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-Niubility-Google-Photos" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-Niubility-Google-Photos" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a class="article-date">
   <time datetime="2017-08-03T04:27:35.000Z" itemprop="datePublished">2017-08-03</time>
@@ -93,8 +97,8 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/03/Niubility-Google-Photos/">Niubility Google Photos</a>
+    <h1 class="article-title" itemprop="name">
+      Niubility Google Photos
     </h1>
   
 
@@ -114,61 +118,11 @@
 </article>
 
 
-  
-    <article id="post-将iCloud-Photos转移到Google-Photos" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a class="article-date">
-  <time datetime="2017-08-01T02:10:46.000Z" itemprop="datePublished">2017-08-01</time>
-</a>
-
-    
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/01/将iCloud-Photos转移到Google-Photos/">将 iCloud Photos 转移到 Google Photos</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>最近，在为转移 Android 阵地作准备。其中 iCloud 上 50G 的照片是最大的问题。</p>
-<p>一开始使用 iOS 上的 <a href="https://itunes.apple.com/app/apple-store/id962194608?pt=9008&amp;ct=dwebpromo-empty&amp;mt=8" target="_blank" rel="external">Google Photos</a> 同步整个相册，但在移动设备上做一个全同步显然是十分不划算的，不仅不稳定、损耗设备，而且还对设备的使用造成不便。</p>
-<p>于是乎，我把同步的工作转移到 Mac 上。</p>
-<h3 id="源文件"><a href="#源文件" class="headerlink" title="源文件"></a>源文件</h3><p>macOS 本地 Photos 源文件所在的地方。<span class="bigfoot-footnote__container"> <button class="bigfoot-footnote__button" id="fnref:1" data-footnote-number="1" data-footnote-identifier="1" alt="See Footnote 1" rel="footnote" data-bigfoot-footnote="
-Right Click Photos Library.photoslibrary and Show Package Contents"> <svg class="bigfoot-footnote__button__circle" viewbox="0 0 6 6" preserveaspectratio="xMinYMin"><circle r="3" cx="3" cy="3" fill="white"/></svg> <svg class="bigfoot-footnote__button__circle" viewbox="0 0 6 6" preserveaspectratio="xMinYMin"><circle r="3" cx="3" cy="3" fill="white"/></svg> <svg class="bigfoot-footnote__button__circle" viewbox="0 0 6 6" preserveaspectratio="xMinYMin"><circle r="3" cx="3" cy="3" fill="white"/></svg> </button></span><br><a id="more"></a></p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">~<span class="regexp">/Pictures/</span>Photos Library.photoslibrary<span class="regexp">/Masters/</span></div></pre></td></tr></table></figure>
-<h3 id="准备同步"><a href="#准备同步" class="headerlink" title="准备同步"></a>准备同步</h3><p>由于 <a href="https://www.google.com/drive/download/" target="_blank" rel="external">Backup and Sync from Google.app</a>  只能选择文件夹进行同步，因此我们需要将 <strong>Masters</strong> 文件夹拿出来。What？把50G东西复制一份？NONONO！我们只需要创建一个快捷方式就可以了。</p>
-<figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ln -s ~<span class="regexp">/Pictures/</span>Photos Library.photoslibrary<span class="regexp">/Masters  ~/</span>Pictures</div></pre></td></tr></table></figure>
-<p>将 <strong>Photos iCloud</strong> 设置为 <strong>Download Originals to this Mac</strong><br><img src="http://7xsqni.com1.z0.glb.clouddn.com/2017-08-01-Screen%20Shot%202017-08-01%20at%207.11.05%20PM.png" alt=""></p>
-<h3 id="开始同步"><a href="#开始同步" class="headerlink" title="开始同步"></a>开始同步</h3><p>在 <strong>Backup and Sync from Google.app</strong> 上选择刚刚创建的快捷方式，并按下<strong>OK</strong>，然后开始扫面文件。</p>
-<p><img src="http://7xsqni.com1.z0.glb.clouddn.com/2017-08-01-Screen%20Shot%202017-08-01%20at%206.36.22%20PM.png" alt=""></p>
-<h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p>等待同步结束，你就可以将图片转移到 <strong>Google Photos</strong> 了。</p>
-<p>🎉🎉🎉</p>
-<p>始终是两个公司的产物，所以有一些不尽人意的地方：</p>
-<ol>
-<li>没有 Exif 信息的图片时间会根据上传时间而改变（如：从 微信.app 拍摄的图片）；</li>
-<li><strong>Google Photos.app</strong> 上会出现重复图，Zero KB，可能是僵尸图；</li>
-</ol>
-<p>由于 Google Photos 是监测文件夹的变化的，无奈我的 macbook 是乞丐版，128G版，不能一直这样增加照片，所以这次同步完成后，我就开始使用 iOS 客户端同步了，只要勤同步，一个晚上同步一天拍摄的照片还是可以的。</p>
-<p>-EOF-</p>
-
-      
-    </div>
-    <footer class="article-footer">
-    </footer>
-  </div>
-</article>
-
-
-  
-  
+</section>
 </section>
       </div>
       <footer id="footer">
@@ -185,11 +139,13 @@ Right Click Photos Library.photoslibrary and Show Package Contents"> <svg class=
 <script>
   var disqus_shortname = 'czwen';
   
+  var disqus_url = 'http://blog.forkmycode.com/2017/08/03/Niubility-Google-Photos/';
+  
   (function(){
     var dsq = document.createElement('script');
     dsq.type = 'text/javascript';
     dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
   })();
 </script>
