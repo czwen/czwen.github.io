@@ -13,7 +13,7 @@
 <meta property="og:description" content="最近，在为转移 Android 阵地作准备。其中 iCloud 上 50G 的照片是最大的问题。 一开始使用 iOS 上的 Google Photos 同步整个相册，但在移动设备上做一个全同步显然是十分不划算的，不仅不稳定、损耗设备，而且还对设备的使用造成不便。 于是乎，我把同步的工作转移到 Mac 上。 源文件macOS 本地 Photos 源文件所在的地方。      1~/Pictures/">
 <meta property="og:image" content="http://7xsqni.com1.z0.glb.clouddn.com/2017-08-01-Screen%20Shot%202017-08-01%20at%207.11.05%20PM.png">
 <meta property="og:image" content="http://7xsqni.com1.z0.glb.clouddn.com/2017-08-01-Screen%20Shot%202017-08-01%20at%206.36.22%20PM.png">
-<meta property="og:updated_time" content="2017-08-03T09:59:48.000Z">
+<meta property="og:updated_time" content="2017-08-14T03:53:47.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="将 iCloud Photos 转移到 Google Photos">
 <meta name="twitter:description" content="最近，在为转移 Android 阵地作准备。其中 iCloud 上 50G 的照片是最大的问题。 一开始使用 iOS 上的 Google Photos 同步整个相册，但在移动设备上做一个全同步显然是十分不划算的，不仅不稳定、损耗设备，而且还对设备的使用造成不便。 于是乎，我把同步的工作转移到 Mac 上。 源文件macOS 本地 Photos 源文件所在的地方。      1~/Pictures/">
@@ -116,7 +116,7 @@ Right Click Photos Library.photoslibrary and Show Package Contents"> <svg class=
 <h3 id="准备同步"><a href="#准备同步" class="headerlink" title="准备同步"></a>准备同步</h3><p>由于 <a href="https://www.google.com/drive/download/" target="_blank" rel="external">Backup and Sync from Google.app</a>  只能选择文件夹进行同步，因此我们需要将 <strong>Masters</strong> 文件夹拿出来。What？把50G东西复制一份？NONONO！我们只需要创建一个快捷方式就可以了。</p>
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ln -s ~<span class="regexp">/Pictures/</span>Photos Library.photoslibrary<span class="regexp">/Masters  ~/</span>Pictures</div></pre></td></tr></table></figure>
 <p>将 <strong>Photos iCloud</strong> 设置为 <strong>Download Originals to this Mac</strong><br><img src="http://7xsqni.com1.z0.glb.clouddn.com/2017-08-01-Screen%20Shot%202017-08-01%20at%207.11.05%20PM.png" alt=""></p>
-<h3 id="开始同步"><a href="#开始同步" class="headerlink" title="开始同步"></a>开始同步</h3><p>在 <strong>Backup and Sync from Google.app</strong> 上选择刚刚创建的快捷方式，并按下<strong>OK</strong>，然后开始扫面文件。</p>
+<h3 id="开始同步"><a href="#开始同步" class="headerlink" title="开始同步"></a>开始同步</h3><p>在 <strong>Backup and Sync from Google.app</strong> 上选择刚刚创建的快捷方式，并按下<strong>OK</strong>，然后开始扫描文件。</p>
 <p><img src="http://7xsqni.com1.z0.glb.clouddn.com/2017-08-01-Screen%20Shot%202017-08-01%20at%206.36.22%20PM.png" alt=""></p>
 <h3 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h3><p>等待同步结束，你就可以将图片转移到 <strong>Google Photos</strong> 了。</p>
 <p>🎉🎉🎉</p>
