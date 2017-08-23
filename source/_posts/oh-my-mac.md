@@ -61,7 +61,8 @@ tags:
 1. [cloc](http://cloc.sourceforge.net/)
 	统计代码行数
 1. [cocoapods](https://cocoapods.org/)
-1. [fastlane](https://github.com/fastlane/fastlane) 	自动化
+1. [fastlane](https://github.com/fastlane/fastlane)
+	自动化
 1. [git-flow](https://github.com/nvie/gitflow)
 	flow 流程
 1. [ssh-copy-id](https://www.ssh.com/ssh/copy-id)
