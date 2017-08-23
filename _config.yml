@@ -75,3 +75,14 @@ deploy:
 
 # Comment
 disqus_shortname: czwen
+
+# emoji
+githubEmojis:
+  enable: true
+  className: github-emoji
+  unicode: false
+  styles:
+    display: inline
+    vertical-align: bottom
+    padding-right: 2px
+  localEmojis:
